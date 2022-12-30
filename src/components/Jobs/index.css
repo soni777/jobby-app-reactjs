@@ -1,0 +1,142 @@
+.job-app-container {
+  background-color: #121212;
+  min-height: 100vh;
+  font-family: Roboto;
+}
+
+.job-container {
+  background-color: #000000;
+}
+
+.job-details {
+  display: flex;
+  padding: 10px 30px;
+}
+
+.left-side-container {
+  width: 30%;
+  padding: 20px;
+}
+
+.profile-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  height: 200px;
+  padding: 20px;
+}
+
+.profile-img {
+  height: 40px;
+}
+
+.name {
+  margin-top: 5px;
+  color: #6366f1;
+}
+
+.designation {
+  color: #2c364c;
+}
+
+.list-container {
+  list-style: none;
+  padding: 0px;
+}
+
+.list-element {
+  color: #f1f5f9;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+.filter-title {
+  color: #f8fafc;
+}
+
+.horizontal-line {
+  border-color: #b6c5ff;
+}
+
+.right-side-container {
+  min-height: 70vh;
+  width: 70%;
+  padding: 20px;
+  /* background-color: blue; */
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #7e858e;
+  border-radius: 5px;
+  height: 30px;
+  width: 50%;
+}
+
+.search {
+  background-color: transparent;
+  color: #cbd5e1;
+  padding: 5px 20px;
+  width: 1000px;
+  border: none;
+  outline: none;
+}
+
+.search-icon {
+  color: #cbd5e1;
+  height: 25px;
+}
+
+.button {
+  height: 100%;
+  width: 100%;
+  background-color: #272727;
+  border: none;
+  outline: none;
+}
+
+.retry-container {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.failure-container {
+  height: 70vh;
+  color: #f1f5f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-img {
+  height: 300px;
+}
+
+@media (max-width: 767px) {
+  .search-container {
+    width: 90%;
+    margin: 10px 20px;
+  }
+  .job-details {
+    flex-direction: column;
+    padding: 5px;
+  }
+  .left-side-container {
+    width: 100%;
+  }
+  .right-side-container {
+    width: 100%;
+  }
+  .profile-container {
+    border-radius: 15px;
+  }
+}

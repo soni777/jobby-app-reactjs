@@ -1,0 +1,17 @@
+.not-found-app-container {
+  background-color: #121212;
+}
+.not-found-container {
+  background-color: #000000;
+  min-height: 100vh;
+  font-family: Roboto;
+}
+
+.notfound-image-text-container {
+  color: #f8fafc;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
